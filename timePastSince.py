@@ -55,7 +55,7 @@ while True:
             'Type in the first date in the format "MM/DD/YYYY" (Month-Day-Year) for example "11/03/2021" for November, 3rd 2021) (> ')
 
         chosen_date_2 = pyip.inputDate(
-            'Type in the second date in the format "MM/DD/YYYY" (Month-Day-Year) for example "11/03/2000" for November, 3rd 2022) (> ')
+            'Type in the second date in the format "MM/DD/YYYY" (Month-Day-Year) for example "11/03/2000" for November, 3rd 2000) (> ')
 
         # Calculate the amout of time between the 2 dates (with datetime
         # module)
