@@ -1,25 +1,19 @@
 '''Potential To-Dos
+- TODO: some of it might be easier with "dateutil" third-party party 
+library https://dateutil.readthedocs.io/en/stable/ which is recommended
+e.g. on https://realpython.com/lessons/date-time-arithmetic/. Especially 
+the following is promising: "Computing of relative deltas between two 
+given date and/or datetime objects;"
 
-
-
-- TODO: some of it might be easier with "dateutil" third-party party library
-https://dateutil.readthedocs.io/en/stable/ which is recommended e.g. on
-https://realpython.com/lessons/date-time-arithmetic/. Especially the following is aussichtsreich:
-"Computing of relative deltas between two given date and/or datetime objects;"
-
---------------------
-- TODO: ideally the input in Option B and the output format are the same. Currently they are not.
- o 1 way to do this might be the following from https://docs.python.org/3/library/string.html#string.ascii_uppercase
+- TODO: ideally the input in Option B and the output format are the 
+same. Currently they are not. 
+ o 1 way to do this might be the following from 
+ https://docs.python.org/3/library/string.html#string.ascii_uppercase
  Using type-specific formatting:
->>>
-
 >>> import datetime
 >>> d = datetime.datetime(2010, 7, 4, 12, 15, 58)
 >>> '{:%Y-%m-%d %H:%M:%S}'.format(d)
 '2010-07-04 12:15:58'
---------------------
-
-
 
 '''
 
