@@ -24,9 +24,9 @@ import pyinputplus as pyip
 import sys
 
 # Welcome Text
-print('''Did you ever wonder for how many days you and your partner are a
-couple (or you and your childhood friend know each other) or how many hours
-have past since you are born?
+print('''Did you ever wonder for how many days you and your partner are 
+a couple (or you and your childhood friend know each other) or how many 
+hours have past since you are born?
 
 ''')
 
@@ -34,14 +34,20 @@ have past since you are born?
 while True:
     # Giving the user 2 options how to proceed
     print('''This program offers you 2 options on what to calculate:
-    - A)How many years or weeks or days or minutes or seconds pass, have past or will pass between two different dates (e.g. 1/1/1990 and 5/5/2035)?
-    - B)Which date is a certain number of days before or after a certain date (e.g. 1000 days after today)?
-
+    - A)How many years or weeks or days or minutes or seconds pass, 
+    have past or will pass between two different dates 
+    (e.g. 1/1/1990 and 5/5/2035)?
+    - B)Which date is a certain number of days before or after a certain date 
+    (e.g. 1000 days after today)?
     ''')
 
     chosen_calculation = pyip.inputMenu(
         ['A', 'B'], lettered=False, numbered=False)
 
+
+
+    # TODO: Adjust the line which is 5 and 8 lines below so that its length 
+    # is not longer than 79 characters.
     if chosen_calculation == 'A':
         # Let user input 2 dates (the following format works too for the dates:
         # "11/03/21" or "11/3/21)
@@ -105,6 +111,8 @@ while True:
                 2),
             "seconds---")
 
+    # TODO: Adjust the line which is 5 lines below so that its length is not 
+    # longer than 79 characters.
     if chosen_calculation == 'B':
         # User chooses the first date (the following format works too for the
         # dates: "11/03/21" or "11/3/21)
@@ -112,7 +120,9 @@ while True:
             'Type in the date in the format "MM/DD/YYYY" (Month-Day-Year) for example "11/03/2021" for November, 3rd 2021) (> ')
 
         # The user chooses if the new date is in the future or the past.
-        print("Please type if the new date you want to calculate is in the future or the past.")
+        print(
+            "Please type if the new date you want to calculate is in the",
+            "future or the past.")
         choice_future_past_input = pyip.inputMenu(
             ['future', 'past'], lettered=True, numbered=False)
 
