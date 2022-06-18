@@ -46,8 +46,8 @@ while True:
 
 
 
-    # TODO: Adjust the line which is 5 and 8 lines below so that its length 
-    # is not longer than 79 characters.
+    # TODO: Adjust the line which is 5 and 8 lines below so that its 
+    # length is not longer than 79 characters.
     if chosen_calculation == 'A':
         # Let user input 2 dates (the following format works too for the dates:
         # "11/03/21" or "11/3/21)
