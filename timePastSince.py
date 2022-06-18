@@ -49,8 +49,8 @@ while True:
     # TODO: Adjust the line which is 5 and 8 lines below so that its 
     # length is not longer than 79 characters.
     if chosen_calculation == 'A':
-        # Let user input 2 dates (the following format works too for the dates:
-        # "11/03/21" or "11/3/21)
+        # Let user input 2 dates (the following format works too for the 
+        # dates: "11/03/21" or "11/3/21)
         chosen_date_1 = pyip.inputDate(
             'Type in the first date in the format "MM/DD/YYYY" (Month-Day-Year) for example "11/03/2021" for November, 3rd 2021) (> ')
 
@@ -111,11 +111,11 @@ while True:
                 2),
             "seconds---")
 
-    # TODO: Adjust the line which is 5 lines below so that its length is not 
-    # longer than 79 characters.
+    # TODO: Adjust the line which is 5 lines below so that its length is
+    # not longer than 79 characters.
     if chosen_calculation == 'B':
-        # User chooses the first date (the following format works too for the
-        # dates: "11/03/21" or "11/3/21)
+        # User chooses the first date (the following format works too 
+        # for the dates: "11/03/21" or "11/3/21)
         chosen_date_1 = pyip.inputDate(
             'Type in the date in the format "MM/DD/YYYY" (Month-Day-Year) for example "11/03/2021" for November, 3rd 2021) (> ')
 
