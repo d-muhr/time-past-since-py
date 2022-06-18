@@ -99,7 +99,7 @@ while True:
                 date_difference /
                 delta_1_hour,
                 2),
-            "hours",
+            "hours or",
             round(
                 date_difference /
                 delta_1_minute,
